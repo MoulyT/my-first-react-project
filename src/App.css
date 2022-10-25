@@ -1,1 +1,53 @@
+@font-face {
+  font-family: be-vietnam-pro;
+  src: url("./assets/landing/fonts/BeVietnamPro-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: be-vietnam-pro;
+  src: url("./assets/landing/fonts/BeVietnamPro-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: be-vietnam-pro;
+  src: url("./assets/landing/fonts/BeVietnamPro-Bold.ttf");
+  font-weight: 700;
+}
 
+:root {
+  --primary: hsl(12, 88%, 59%); /* Bright Red*/
+  --secondary: hsl(228, 39%, 23%); /* Darl Blue*/
+  --dark-Grayish-Blue: hsl(227, 12%, 61%);
+  --very-Dark-Blue: hsl(233, 12%, 13%);
+  --very-Pale-Red: hsl(13, 100%, 96%);
+  --vary-light-gray: hsl(0, 0%, 98%);
+}
+
+body {
+  margin: 0;
+
+  font-family: "be-vietnam-pro";
+  font-weight: 400;
+  font-size: 1rem;
+
+  line-height: 1.625%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+div,
+header {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto 0;
+  max-width: 90rem;
+}
