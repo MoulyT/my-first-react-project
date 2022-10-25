@@ -1,9 +1,18 @@
 @import "/src/App.css";
 
-ul {
-  list-style: none;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 48px 1.25rem;
 }
 
-li {
-  text-decoration: none;
+.navbar__list {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar__logo {
+  margin: auto 0;
 }

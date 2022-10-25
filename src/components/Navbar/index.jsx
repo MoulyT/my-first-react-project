@@ -4,26 +4,28 @@ import { ReactComponent as LogoImage } from "../../assets/landing/images/logo.sv
 
 function Navbar() {
   return (
-    <div>
-      <LogoImage />
-      <div>
-        <ul>
-          <li>
-            <a href="https://github.com">Pricing</a>
-          </li>
-          <li>
-            <a href="https://github.com">Product</a>
-          </li>
-          <li>
-            <a href="https://github.com">About Us</a>
-          </li>
-          <li>
-            <a href="https://github.com">Careers</a>
-          </li>
-          <li>
-            <a href="https://github.com">Community</a>
-          </li>
-        </ul>
+    <div className="wrapper">
+      <div className="navbar">
+        <LogoImage className="navbar__logo" />
+        <div>
+          <ul className="navbar__list">
+            <li>
+              <a href="https://github.com">Pricing</a>
+            </li>
+            <li>
+              <a href="https://github.com">Product</a>
+            </li>
+            <li>
+              <a href="https://github.com">About Us</a>
+            </li>
+            <li>
+              <a href="https://github.com">Careers</a>
+            </li>
+            <li>
+              <a href="https://github.com">Community</a>
+            </li>
+          </ul>
+        </div>
         <Button>Get Started</Button>
       </div>
     </div>
