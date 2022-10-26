@@ -11,6 +11,9 @@
 .navbar__list {
   display: flex;
   gap: 2.5rem;
+
+  font-size: 0.875rem;
+  color: var(--secondary);
 }
 
 .navbar__logo {

@@ -32,6 +32,15 @@ body {
 
   line-height: 1.5;
 }
+.exterior_wrapper {
+  max-width: 90rem;
+  margin: auto;
+
+  background-image: url(./assets/landing/images/bg-tablet-pattern.svg),
+    url(./assets/landing/images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: 124% -28%, -80% 164%;
+}
 
 ul {
   align-self: center;
@@ -54,14 +63,14 @@ header {
 
 .wrapper {
   margin: 0 auto 0;
-  max-width: 90rem;
+  max-width: 70rem;
 }
 
 h1 {
   margin: 0;
   margin-bottom: 2rem;
 
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
 
   color: var(--secondary);

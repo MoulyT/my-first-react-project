@@ -10,11 +10,13 @@ function App() {
   return (
     <StrictMode>
       <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/chat" element={<Chat />} />
-        </Routes>
+        <div className="exterior_wrapper">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Landing />} />
+            <Route path="/chat" element={<Chat />} />
+          </Routes>
+        </div>
       </BrowserRouter>
     </StrictMode>
   );
