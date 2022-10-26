@@ -20,7 +20,7 @@
   --p-text-color: hsl(227, 12%, 61%);
   --very-Dark-Blue: hsl(233, 12%, 13%);
   --very-Pale-Red: hsl(13, 100%, 96%);
-  --vary-light-gray: hsl(0, 0%, 98%);
+  --very-light-gray: hsl(0, 0%, 98%);
 }
 
 body {

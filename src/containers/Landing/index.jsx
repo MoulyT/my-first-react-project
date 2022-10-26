@@ -1,5 +1,6 @@
 import Button from "../../components/Button";
 import Slide from "../../components/Slide";
+import { reviews } from "../../assets/landing/reviews-users";
 import { ReactComponent as ImageIntro } from "../../assets/landing/images/illustration-intro.svg";
 
 import "./styles.scss";
@@ -11,8 +12,8 @@ const Landing = () => {
     =============================================================== */}
       <section className="introduction wrapper">
         <div className="introduction__text">
+          <h1>Bring everyone together to build better products.</h1>
           <p>
-            <h1>Bring everyone together to build better products.</h1>
             Manage makes it simple for software teams to plan day-to-day while
             keeping the larger team goals in view.
           </p>
@@ -81,7 +82,11 @@ const Landing = () => {
       =============================================================== */}
       <section className="opinions wrapper">
         <h2>What they&apos;ve said</h2>
-        <Slide />
+        <Slide
+          name={reviews[0].name}
+          avatar={reviews[1].avatar}
+          review={reviews[0].text}
+        />
         <Button>Get Started</Button>
       </section>
     </>

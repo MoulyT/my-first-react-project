@@ -1,0 +1,14 @@
+@import url(/src/App.css);
+
+.review_card {
+  max-width: 40rem;
+
+  margin: auto;
+  padding: 2rem;
+
+  background-color: var(--very-light-gray);
+}
+
+.review.card__img {
+  margin-top: -24px;
+}
