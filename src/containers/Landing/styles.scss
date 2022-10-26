@@ -1,0 +1,18 @@
+@import url(/src/App.css);
+
+.introduction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction__text {
+  max-width: 35rem; /*Quizás un poco menos incluso*/
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.introduction__img {
+  margin-right: -1rem;
+}

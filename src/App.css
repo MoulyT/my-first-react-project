@@ -30,7 +30,7 @@ body {
   font-weight: 400;
   font-size: 1rem;
 
-  line-height: 1.625%;
+  line-height: 1.5;
 }
 
 ul {
@@ -55,4 +55,18 @@ header {
 .wrapper {
   margin: 0 auto 0;
   max-width: 90rem;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 2rem;
+
+  font-size: 3rem;
+  font-weight: 700;
+
+  color: var(--secondary);
+}
+
+p {
+  color: var(--p-text-color);
 }
