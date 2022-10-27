@@ -1,7 +1,7 @@
-import avatar01 from "./images/avatar-ali.png";
-import avatar02 from "./images/avatar-richard.png";
-import avatar03 from "./images/avatar-anisha.png";
-import avatar04 from "./images/avatar-shanai.png";
+import avatar01 from "../assets/landing/images/avatar-ali.png";
+import avatar02 from "../assets/landing/images/avatar-richard.png";
+import avatar03 from "../assets/landing/images/avatar-anisha.png";
+import avatar04 from "../assets/landing/images/avatar-shanai.png";
 
 export const reviews = [
   {

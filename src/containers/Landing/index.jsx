@@ -1,6 +1,4 @@
 import Button from "../../components/Button";
-// import Slide from "../../components/Slide";
-// import { reviews } from "../../assets/landing/reviews-users";
 import { ReactComponent as ImageIntro } from "../../assets/landing/images/illustration-intro.svg";
 
 import "./styles.scss";
