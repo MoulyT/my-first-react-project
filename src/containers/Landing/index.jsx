@@ -1,8 +1,10 @@
 import Button from "../../components/Button";
 import { ReactComponent as ImageIntro } from "../../assets/landing/images/illustration-intro.svg";
-
+// import { reviews } from "../../data/reviews-users";
 import "./styles.scss";
-import Slider from "../../components/Slider";
+//import Slider from "../../components/Slider";
+import Banner from "../../components/Banner";
+import Footer from "../../components/Footer";
 
 const Landing = () => {
   return (
@@ -81,9 +83,11 @@ const Landing = () => {
       =============================================================== */}
       <section className="opinions wrapper">
         <h2>What they&apos;ve said</h2>
-        <Slider />
+
         <Button>Get Started</Button>
       </section>
+      <Banner></Banner>
+      <Footer></Footer>
     </>
   );
 };

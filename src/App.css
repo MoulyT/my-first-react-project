@@ -18,8 +18,8 @@
   --primary: hsl(12, 88%, 59%); /* Bright Red*/
   --secondary: hsl(228, 39%, 23%); /* Darl Blue*/
   --p-text-color: hsl(227, 12%, 61%);
-  --very-Dark-Blue: hsl(233, 12%, 13%);
-  --very-Pale-Red: hsl(13, 100%, 96%);
+  --very-dark-blue: hsl(233, 12%, 13%);
+  --very-pale-red: hsl(13, 100%, 96%);
   --very-light-gray: hsl(0, 0%, 98%);
 }
 
@@ -39,7 +39,7 @@ body {
   background-image: url(./assets/landing/images/bg-tablet-pattern.svg),
     url(./assets/landing/images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
-  background-position: 124% -28%, -80% 164%;
+  background-position: 124% -28%, -80% 124%;
 }
 
 ul {

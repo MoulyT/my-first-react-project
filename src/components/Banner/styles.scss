@@ -1,4 +1,34 @@
+@import url(/src/App.css);
+
 .banner {
   display: flex;
+  justify-content: space-between;
+
+  padding: 1.25rem;
+
   background-color: var(--primary);
+  background-image: url(../../assets/landing/images/bg-tablet-pattern.svg),
+    url(../../assets/landing/images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: 124% -8%, -80% 4%;
+}
+
+.banner__text {
+  max-width: 30rem;
+
+  margin-left: 12rem;
+
+  h2 {
+    color: white;
+  }
+}
+
+.banner__button_container {
+  margin-top: 2rem;
+  margin-right: 3rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }

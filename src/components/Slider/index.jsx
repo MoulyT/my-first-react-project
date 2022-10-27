@@ -3,7 +3,6 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import "./styles.scss";
 import Slide from "../Slide";
-import { reviews } from "../../data/reviews-users";
 
 const Slider = (reviews) => {
   const [sliderRef] = useKeenSlider({

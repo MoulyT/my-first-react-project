@@ -1,0 +1,13 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  padding: 4rem;
+
+  background-color: var(--very-dark-blue);
+  color: white;
+}
+
+.footer__logo {
+  color: inherit;
+}
