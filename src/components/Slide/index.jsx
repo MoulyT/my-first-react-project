@@ -1,8 +1,7 @@
 import "./styles.scss";
-
 const Slide = ({ name, avatar, review }) => {
   return (
-    <div className="review_card">
+    <div className="review_card keen-slider__slide">
       <img
         src={avatar}
         alt={`Profile of ${name}`}
