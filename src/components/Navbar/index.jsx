@@ -22,7 +22,7 @@ function Navbar() {
               <a href="https://github.com">Careers</a>
             </li>
             <li>
-              <a href="https://github.com">Community</a>
+              <a href="/chat">Community</a>
             </li>
           </ul>
         </div>

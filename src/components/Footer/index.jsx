@@ -10,17 +10,10 @@ import Button from "../Button/index";
 export default function Footer() {
   return (
     <div className="footer">
-      <div>
-        <LogoImage className="footer__logo" />
-        <div className="footer__logos">
-          <LogoFB />
-          <LogoYT />
-          <LogoTwitter />
-          <LogoPinterest />
-          <LogoInsta />
-        </div>
+      <div className="footer__logo">
+        <LogoImage />
       </div>
-      <ul className="footer__list">
+      <ul className="footer__list--1">
         <li>
           <a href="https://github.com">Home</a>
         </li>
@@ -34,7 +27,7 @@ export default function Footer() {
           <a href="https://github.com">About Us</a>
         </li>
       </ul>
-      <ul className="footer__list">
+      <ul className="footer__list--2">
         <li>
           <a href="https://github.com">Careers</a>
         </li>
@@ -46,15 +39,20 @@ export default function Footer() {
         </li>
       </ul>
 
-      <div>
-        <div>
-          <input type="text" className="footer__input" />
-          <Button>Go</Button>
-        </div>
+      <div className="footer__input_container">
+        <input type="text" className="footer__input" />
+        <Button>Go</Button>
+      </div>
 
-        <div className="footer__copyright">
-          Copyright 2020. All Rights Reserved
-        </div>
+      <div className="footer__logos">
+        <LogoFB />
+        <LogoYT />
+        <LogoTwitter />
+        <LogoPinterest />
+        <LogoInsta />
+      </div>
+      <div className="footer__copyright">
+        Copyright 2020. All Rights Reserved
       </div>
     </div>
   );

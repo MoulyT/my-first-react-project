@@ -1,13 +1,68 @@
 .footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 3fr 1fr;
+  grid-template-areas:
+    "brand list1 list2 input"
+    "social list1 list2 copyright";
 
-  padding: 4rem;
+  padding: 64px;
 
   background-color: var(--very-dark-blue);
   color: white;
+
+  font-weight: 400;
+  font-size: 0.875rem;
 }
 
 .footer__logo {
-  color: inherit;
+  grid-area: "brand";
+}
+
+.footer__logos {
+  display: flex;
+  gap: 0.5rem;
+
+  align-self: flex-end;
+  grid-area: "social";
+}
+a {
+  font-weight: 400;
+  color: gray;
+}
+
+ul {
+  align-self: flex-start;
+}
+
+.footer__list--1 {
+  grid-area: "list1";
+}
+.footer__list--2 {
+  grid-area: "list2";
+}
+
+.footer__input_container {
+  grid-area: "input";
+  input {
+    padding: 0.625rem 1.2rem;
+    margin-right: 0.5rem;
+    height: fit-content;
+
+    border: none;
+    border-radius: 20px;
+
+    font-weight: 500;
+  }
+}
+
+.button {
+  box-shadow: none;
+}
+
+.footer__copyright {
+  grid-area: "copyright";
+
+  font-size: 0.75rem;
+  color: darkgray;
 }
