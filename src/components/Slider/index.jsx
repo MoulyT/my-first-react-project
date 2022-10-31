@@ -8,11 +8,11 @@ const Slider = ({ reviews }) => {
   const [sliderRef] = useKeenSlider({
     loop: true,
     mode: "free-snap",
-    slides: { origin: "center", perView: 3, spacing: 30 },
+    slides: { origin: "center", perView: 2.6, spacing: 30 },
   });
-  console.log(reviews, "slider");
+
   return (
-    <div ref={sliderRef} className="keen-slider">
+    <div ref={sliderRef} className="keen-slider" style={{ maxWidth: 1440 }}>
       {reviews.map((r) => (
         <Slide name={r.name} avatar={r.avatar} review={r.text} key={r.id} />
       ))}

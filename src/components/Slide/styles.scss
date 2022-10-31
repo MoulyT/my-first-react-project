@@ -1,14 +1,15 @@
 @import url(/src/App.css);
 
 .review_card {
-  max-width: 40rem;
-
   margin: auto;
-  padding: 2rem;
-
-  background-color: var(--very-light-gray);
 }
 
-.review.card__img {
-  margin-top: -24px;
+.review_card__text {
+  background-color: var(--very-light-gray);
+  padding: 2rem;
+}
+
+.review_card__img {
+  margin-bottom: -48px;
+  width: 5rem;
 }

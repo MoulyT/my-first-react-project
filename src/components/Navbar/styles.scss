@@ -1,21 +1,27 @@
 @import "/src/App.css";
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: fixed;
+  z-index: 1;
 
-  margin: 3rem 0 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: inherit;
+  width: 100%;
+
+  margin: 0rem 0 8rem;
+  padding-top: 3rem;
 }
 
 .navbar__list {
   display: flex;
   gap: 2.5rem;
 
+  margin-right: 1;
+
   font-size: 0.875rem;
   color: var(--secondary);
-}
-
-.navbar__logo {
-  margin: auto 0;
+  transition: "top 0.6s";
 }

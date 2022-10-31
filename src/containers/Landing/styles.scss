@@ -6,12 +6,12 @@
 .introduction {
   display: flex;
   justify-content: space-between;
-
+  padding-top: 10rem;
   margin-bottom: 6rem;
 }
 
 .introduction__text {
-  max-width: 35rem; /*Quizás un poco menos incluso*/
+  max-width: 488px; /*Quizás un poco menos incluso*/
 
   p {
     margin-bottom: 2rem;
@@ -87,4 +87,6 @@ h3 {
 
 .opinions {
   text-align: center;
+
+  margin-bottom: 10rem;
 }

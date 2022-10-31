@@ -9,7 +9,7 @@ import Button from "../Button/index";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer wrapper_exterior">
       <div className="footer__logo">
         <LogoImage />
       </div>

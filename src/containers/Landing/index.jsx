@@ -81,10 +81,9 @@ const Landing = () => {
       </section>
       {/* Section Opinions
       =============================================================== */}
-      <section className="opinions wrapper">
+      <section className="opinions">
         <h2>What they&apos;ve said</h2>
         <Slider reviews={reviews} />
-        {console.log(reviews)}
         <Button>Get Started</Button>
       </section>
       <Banner></Banner>
