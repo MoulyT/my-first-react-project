@@ -65,6 +65,10 @@ header {
   position: relative;
   margin: 0 auto 0;
   max-width: 70rem;
+
+  &.wrapper--chat {
+    max-width: 40rem;
+  }
 }
 
 h1 {

@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
+import "./App.scss";
 import Chat from "./containers/Chat";
 import Landing from "./containers/Landing";
 
