@@ -1,0 +1,27 @@
+.fav_button {
+  display: flex;
+  flex-direction: column;
+
+  width: fit-content;
+
+  border-radius: 0.75rem;
+
+  background-color: #f5f6fa;
+
+  button {
+    border-radius: 0.75rem;
+    box-shadow: none;
+
+    font-weight: 700;
+    font-size: 1.25rem;
+
+    color: hsl(239, 57%, 85%);
+  }
+}
+
+.number_favs {
+  color: hsl(238, 40%, 52%);
+  margin: auto auto;
+
+  font-weight: 700;
+}

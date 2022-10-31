@@ -16,7 +16,7 @@
 }
 
 .footer__logo {
-  grid-area: "brand";
+  grid-area: brand;
 }
 
 .footer__logos {
@@ -24,7 +24,7 @@
   gap: 0.5rem;
 
   align-self: flex-end;
-  grid-area: "social";
+  grid-area: social;
 }
 a {
   font-weight: 400;
@@ -36,14 +36,14 @@ ul {
 }
 
 .footer__list--1 {
-  grid-area: "list1";
+  grid-area: list1;
 }
 .footer__list--2 {
-  grid-area: "list2";
+  grid-area: list2;
 }
 
 .footer__input_container {
-  grid-area: "input";
+  grid-area: input;
   input {
     padding: 0.625rem 1.2rem;
     margin-right: 0.5rem;
@@ -57,7 +57,7 @@ ul {
 }
 
 .footer__copyright {
-  grid-area: "copyright";
+  grid-area: copyright;
 
   font-size: 0.75rem;
   color: darkgray;
