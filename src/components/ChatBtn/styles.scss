@@ -1,6 +1,25 @@
+@import url(../../App.scss);
+
+.chat_btn__container {
+  display: flex;
+  column-gap: 0rem;
+
+  width: fit-content;
+}
+
 .chat__btn {
   display: flex;
+  gap: 0.5rem;
   border: none;
   background-color: transparent;
   box-shadow: none;
+
+  color: darkblue;
+  font-weight: 700;
+
+  padding: 10px;
+}
+
+.chat__btn.chat__btn--delete {
+  color: rgb(237, 99, 104);
 }

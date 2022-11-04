@@ -3,36 +3,30 @@ import { ReactComponent as ReplyLogo } from "../../assets/chat/images/icon-reply
 import { ReactComponent as DeleteLogo } from "../../assets/chat/images/icon-delete.svg";
 import { ReactComponent as EditLogo } from "../../assets/chat/images/icon-edit.svg";
 
-function ChatBtn({ children }) {
-  if (children === "Delete") {
+function ChatBtn({ isUser }) {
+  if (isUser) {
     return (
-      <span>
-        <button className="chat__btn">
+      <div className="chat_btn__container">
+        <button className="chat__btn chat__btn--delete">
           <DeleteLogo />
-          {children}
+          Delete
         </button>
-      </span>
+        <button className="chat__btn">
+          <EditLogo />
+          Edit
+        </button>
+      </div>
     );
   }
 
-  if (children === "Edit") {
+  if (!isUser) {
     return (
-      <span>
-        <button className="chat__btn">
-          <EditLogo />
-          {children}
-        </button>
-      </span>
-    );
-  }
-  if (children === "Reply") {
-    return (
-      <span>
+      <div>
         <button className="chat__btn">
           <ReplyLogo />
-          {children}
+          Reply
         </button>
-      </span>
+      </div>
     );
   }
 }

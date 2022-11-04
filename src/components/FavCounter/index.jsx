@@ -1,11 +1,7 @@
 import { useState } from "react";
 import "./styles.scss";
 
-// Rigth now it douesn't read any data.json to record the number of favs
-//Should be implemented in the future
-
 function FavCounter({ counter }) {
-  console.log(counter, "hijo");
   const initialNumberFavs = counter;
   const [numberFavs, setNumberFavs] = useState(initialNumberFavs);
 
