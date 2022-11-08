@@ -63,6 +63,20 @@
           }
         }
       ]
+    },
+    {
+      "content": "https://beta.reactjs.org/learn/sharing-state-between-components#lifting-state-up-by-example",
+      "createdAt": "1 min ago",
+      "score": 0,
+      "user": {
+        "image": {
+          "png": "/chat-avatars/image-juliusomo.png",
+          "webp": "/chat-avatars/image-juliusomo.webp"
+        },
+        "username": "juliusomo"
+      },
+      "id": 3,
+      "replies": []
     }
   ]
 }
