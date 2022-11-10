@@ -30,7 +30,7 @@ export default function ChatCard({ comments, currentUser }) {
                 <span className="chat_card__createdAt">{createdAt}</span>
               </div>
             ) : null}
-            <ChatBtn isUser={isUser} />
+            <ChatBtn isUser={isUser} comments={comments} />
           </div>
           <p>{text}</p>
         </div>

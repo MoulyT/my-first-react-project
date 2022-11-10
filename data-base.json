@@ -65,7 +65,7 @@
       ]
     },
     {
-      "content": "https://beta.reactjs.org/learn/sharing-state-between-components#lifting-state-up-by-example",
+      "content": "Mi al ma funciona ya ",
       "createdAt": "1 min ago",
       "score": 0,
       "user": {
@@ -75,8 +75,36 @@
         },
         "username": "juliusomo"
       },
-      "id": 3,
-      "replies": []
+      "replies": [],
+      "id": 3
+    },
+    {
+      "content": "Amos a ver",
+      "createdAt": "1 min ago",
+      "score": 0,
+      "user": {
+        "image": {
+          "png": "/chat-avatars/image-juliusomo.png",
+          "webp": "/chat-avatars/image-juliusomo.webp"
+        },
+        "username": "juliusomo"
+      },
+      "replies": [],
+      "id": 4
+    },
+    {
+      "content": "Esto es una maravilla",
+      "createdAt": "1 min ago",
+      "score": 0,
+      "user": {
+        "image": {
+          "png": "/chat-avatars/image-juliusomo.png",
+          "webp": "/chat-avatars/image-juliusomo.webp"
+        },
+        "username": "juliusomo"
+      },
+      "replies": [],
+      "id": 5
     }
   ]
 }
